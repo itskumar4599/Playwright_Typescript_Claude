@@ -280,5 +280,5 @@ test('TC009 - Manoj - Standalone: Verify Pfizer page loads with correct URL', as
   console.log('Page Title:', title);
   await page.getByRole('textbox', { name: 'Last name' }).fill('abcd',{timeout:3000});
   await page.getByRole('textbox', { name: 'Last name' }).fill("XYZ");
-  await page.waitForTimeout(5000);
+  await page.waitForTimeout(9000);
 });
